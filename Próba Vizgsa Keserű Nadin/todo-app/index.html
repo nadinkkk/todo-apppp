@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Add new task</h2>
+        <div class="row">
+            <div class="column">
+                <input type="text" id="todoInput" placeholder="New task">
+                <button id="addButton">Add</button>
+                <select id="todoList" multiple></select>
+            </div>
+            <div class="column">
+                <button id="moveLeftButton">&lt;</button>
+                <button id="moveRightButton">&gt;</button>
+            </div>
+            <div class="column">
+                <button id="deleteButton">Delete</button>
+                <select id="doneList" multiple></select>
+            </div>
+        </div>
+        <h2>Shopping List</h2>
+        <div class="row">
+            <div class="column">
+                <input type="text" id="shoppingInput" placeholder="New item">
+                <button id="addShoppingButton">Add</button>
+                <select id="shoppingList" multiple></select>
+            </div>
+        </div>
+        <div class="row">
+            <button id="saveButton">Save</button>
+            <button id="todayButton">Today</button>
+            <button id="tomorrowButton">Tomorrow</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
